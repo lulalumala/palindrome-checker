@@ -8,9 +8,9 @@ button1.addEventListener("click", function () {
         head3.innerText = "Yesss, a palindrome!"
         head3.classList.add("trueVal")
 
-        
+
     }
-    
+
     else {
         head3.innerHTML = "That was not a palindrome"
         head3.classList.remove("trueVal")
