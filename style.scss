@@ -25,7 +25,9 @@ p{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 0.5em;
   align-items: center;
+  border:2px dashed red;
 }
 
 input {
@@ -44,6 +46,7 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
+    box-shadow: 2px 2px 5px green;
 }
 h3{
     padding:1em;
@@ -51,4 +54,7 @@ h3{
 .falseVal{
     color:red;
     font-weight: bold;
+}
+.trueVal{
+    color:green;
 }
