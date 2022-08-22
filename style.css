@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(59, 59, 173);
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+}
+
+p {
+  padding: 1em;
+}
+
+.oval {
+  margin: 2em auto;
+  background-color: gold;
+  color: green;
+  height: 80vh;
+  width: 80vh;
+  border-radius: 50%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: rgb(52, 124, 184);
+  padding: 1.5em;
+  color: white;
+  border: none;
+  align-items: center;
+  border-radius: 5px;
+}
+
+button {
+  background-color: aqua;
+  padding: 1em 2em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+h3 {
+  padding: 1em;
+}
+
+.falseVal {
+  color: red;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
