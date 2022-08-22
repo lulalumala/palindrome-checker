@@ -58,3 +58,14 @@ h3{
 .trueVal{
     color:green;
 }
+@media (max-width:820px){
+ 
+    .oval{
+        width:50%;
+    }
+}
+@media (max-width:414px){
+    .oval{
+        width:100%;
+    }
+}

@@ -35,8 +35,7 @@ input {
   padding: 1.5em;
   color: white;
   border: none;
-  font-size: 2em;
-  text-align: center;
+  align-items: center;
   border-radius: 5px;
 }
 
@@ -50,6 +49,9 @@ button {
   box-shadow: 2px 2px 5px green;
 }
 
+h3 {
+  padding: 1em;
+}
 
 .falseVal {
   color: red;
@@ -58,4 +60,15 @@ button {
 
 .trueVal {
   color: green;
+}
+
+@media (max-width: 820px) {
+  .oval {
+    width: 50%;
+  }
+}
+@media (max-width: 414px) {
+  .oval {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
