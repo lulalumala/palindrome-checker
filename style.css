@@ -35,7 +35,8 @@ input {
   padding: 1.5em;
   color: white;
   border: none;
-  align-items: center;
+  font-size: 2em;
+  text-align: center;
   border-radius: 5px;
 }
 
@@ -49,9 +50,6 @@ button {
   box-shadow: 2px 2px 5px green;
 }
 
-h3 {
-  padding: 1em;
-}
 
 .falseVal {
   color: red;
